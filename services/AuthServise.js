@@ -21,12 +21,12 @@ class AuthServise {
     });
   }
 
-  static async logout(email, password) {
+  static async logout() {
     return $api.post('./logout');
   }
 
-  static async checkAuth(token) {
-    return $api.post('./checkToken', { token });
+  static async checkAuth() {
+    return $api.get('./checkToken');
   }
 }
 
