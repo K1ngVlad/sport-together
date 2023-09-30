@@ -1,3 +1,12 @@
+:root {
+  --vh: calc(100vh - env(safe-area-inset-top));
+  --primary: #16161d;
+  --secondary: #2c2f3e;
+  --blue: #1d97fe;
+  --green: #4b9274;
+  --red: #cb5654;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +14,7 @@
 }
 
 body {
-  background: white;
+  background: var(--primary);
+  height: var(--vh);
+  color: white;
 }
