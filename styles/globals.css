@@ -1,5 +1,4 @@
 :root {
-  --vh: calc(100vh - env(safe-area-inset-top));
   --primary: #16161d;
   --secondary: #2c2f3e;
   --blue: #1d97fe;
