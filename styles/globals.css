@@ -15,6 +15,5 @@
 
 body {
   background: var(--primary);
-  height: var(--vh);
   color: white;
 }

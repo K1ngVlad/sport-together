@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'SportTogether',
   description: 'Двигайся и меняй мир!',
-  visualViewport: 'width=device-width, initial-scale=1',
+  // visualViewport: 'width=device-width, initial-scale=1, viewport-fit=cover',
 };
 
 export default function RootLayout({ children }) {
@@ -27,6 +27,10 @@ export default function RootLayout({ children }) {
           href="/favicon-64x64.png"
           sizes="64x64"
           type="image/png"
+        />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
       </Head>
       <body className={inter.className}>
